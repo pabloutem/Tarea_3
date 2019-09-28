@@ -10,7 +10,7 @@ listaDeNumeros[12]
 
 ejercicio 2:
 unlist(listaDeNumeros[5])
-# entrega un valor sin [[1]] esto se podria deber a que ve todas las variables de la lista como 1 sola
+#entrega un valor sin [[1]] esto se podria deber a que ve todas las variables de la lista como 1 sola
 if(listaDeNumeros[5]+1>0){
   print("se cumple")
 }
