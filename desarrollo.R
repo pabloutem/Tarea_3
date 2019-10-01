@@ -63,6 +63,35 @@ for(i in listaDeNumeros){
 
 #con esta formula crea un loop con la lista de los 11 numeros y el "i" se cambia por el numero de la lista actual del loop
 
+
+#Ejercicio 8 
+
+for (i in listaDeNumeros){
+  print(i)
+  if(i%%2==0) {print("par")} else {print("impar")}
+}
+#entrega las variables que estan dentro de listaDeNumeros, mencionando si son par o impar.
+
+
+#Ejercicio 9: 
+
+Determinar_Ganador<-function(total,votosSI,votosNO){
+  if (votosSI+votosNO>total){
+    "votaciones alteradas"
+  }else if (votosSI>=votosNO && votosSI>=0.3*total){
+    paste ("SI")
+  }else {
+    paste ("NO")
+  }
+}
+Determinar_Ganador(98,99,55)
+Determinar_Ganador(99,96,3)
+Determinar_Ganador(100,5,95)
+
+#la funcion creada consigue los siguientes resultados:votaciones alteradas,SI,NO respectivamente para cada una de las funciones.
+
+
+
 #ejercicio 10
 Suma<-function(a,b){
   a+b
@@ -81,3 +110,27 @@ Divicion<-function(a,b){
   a/b
 }
 Divicion(3,4)
+
+#Ejercicio 11:
+
+Area_rectangulo<-function(b1,h1,b2,h2){
+  b1*h1-b2*h2
+}
+Area_rectangulo(4,6,2,3)
+Area_circulo<-function(r1,r2){
+  abs((pi*r1^2)-(pi*r2^2))
+}
+
+Area_circulo(5,3)
+
+#al realizar esta formula arroja que la diferencia entre las áreas de los dos rectangulos es de 18 y la de los circulos es de 50,26548.
+
+
+#Ejercicio Opcional
+
+for( i in listaDeNumeros){
+  print(i)
+}
+
+#la formula condicional hace que la letra "i" se le asigne los valores de la listaDeNumeros, entregandome un listado hacia abajo cuando presione print.
+
