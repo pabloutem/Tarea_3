@@ -73,6 +73,7 @@ length(valorInicial : valorFinal)
 Comentario : no me crea el loop debido a que el valor final e inicial es el mismo y ademas el largo del loop es de 1
 
 * ejercicio 6
+
 Comando Formula: 
 
 for(i in 1 : 100){
@@ -81,6 +82,7 @@ for(i in 1 : 100){
 Comentario : crea un resultado entre 1 al 100 con una condicion que me escriba "cuento" "i" "misisipis" en donde la letra i la remplaza por el numero actual del loop.
 
 * ejercicio 7
+
 Comando Formula: 
 
 for(i in listaDeNumeros){
@@ -124,6 +126,7 @@ Comentario : la funcion creada consigue los siguientes resultados:votaciones alt
 
 
 * Ejercicio 10
+
 Comando Formula 
 
 Suma<-function(a,b){
@@ -162,7 +165,7 @@ Area_circulo<-function(r1,r2){
 
 Area_circulo(5,3)
 
-Comentario : al realizar esta formula arroja que la diferencia entre las áreas de los dos rectangulos es de 18 y la de los circulos es de 50,26548.
+Comentario : al realizar esta formula arroja que la diferencia entre las Ã¡reas de los dos rectangulos es de 18 y la de los circulos es de 50,26548.
 
 
 * Ejercicio Opcional
