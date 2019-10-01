@@ -152,7 +152,7 @@ Divicion(3,4)
 Comentario : remplaza la letra a y b por los numeros que escribo y respeta la funcion que le grabo en la palabra "divicion"
 
 
-*Ejercicio 11:
+* Ejercicio 11:
 
 Comando Formula : 
 Area_rectangulo<-function(b1,h1,b2,h2){
